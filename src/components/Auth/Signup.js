@@ -7,10 +7,11 @@ const Signup = () => {
       <Row>
         <Col lg={3}></Col>
         <Col ig={6}>
-          <h2 className="mt-5" style={{ color: "red" }}>
-            signup to Get Started
-          </h2>
-          <Form>
+          <Form className="sigtext">
+            <h2 className="mt-5" style={{ color: "red" }}>
+              WOMASHOP
+            </h2>
+            <p>Signup</p>
             <Form.Group className="mb-3">
               <Form.Control placeholder="Enter email" type="email" />
             </Form.Group>

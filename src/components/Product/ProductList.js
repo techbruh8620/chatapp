@@ -22,7 +22,7 @@ const ProductLists = (props) => {
       id: "jsoiwssgj;w",
       title: "Rolex Wrist Watch",
       price: "$400",
-      description: "Original wrist watch and Bracelete",
+      description: " wrist watch and Bracelete",
       URL: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/5063532/1.jpg?4350",
     },
 
@@ -46,7 +46,7 @@ const ProductLists = (props) => {
       id: "MBUuuuukknhjh,jgbjm",
       title: "Cuban Necklace",
       price: "$900",
-      description: "70 karats of Gold Cuban Necklace",
+      description: "70 karats of Gold",
       URL: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/90/0765811/1.jpg?4264",
     },
 

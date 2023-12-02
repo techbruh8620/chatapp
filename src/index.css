@@ -39,6 +39,10 @@ code {
   color: aliceblue;
  }
 
+ .divs {
+  height: 400px;
+ }
+
 
 .footer-section{
   background-color: rgb(32, 32, 47);
@@ -53,5 +57,29 @@ code {
   padding: 20px;
   
  }
+
+.form-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 0.01rem solid black;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
+.wotext {
+  color: red;
+}
+
+
+.sigtext {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 0.01rem solid black;
+  padding: 20px;
+  border-radius: 5px
+}
  
 

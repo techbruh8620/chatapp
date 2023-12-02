@@ -3,9 +3,11 @@ import { Card, Button, Col } from "react-bootstrap";
 
 const ProductCard = (props) => {
   return (
-    <Col lg={6} className="mt-5">
+    <Col lg={3} className="mt-5">
       <Card style={{ width: "100%" }}>
-        <Card.Img variant="top" src={props.imagePath} />
+        <div className="divs">
+          <Card.Img variant="top" src={props.imagePath} />
+        </div>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.description}</Card.Text>

@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Navbar, Nav, Form } from "react-bootstrap";
 import { Search } from "react-bootstrap-icons";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const MainNav = () => {
   const buttonStyles = {
     margin: "10px",
@@ -35,8 +36,14 @@ const MainNav = () => {
             </Form>
           </div>
           <div>
-            <Button style={buttonStyles}>Sign in</Button>
-            <Button variant="secondary">Sign up</Button>
+            <Link to={"/signin"}>
+              <Button style={buttonStyles}>Sign in</Button>
+            </Link>
+
+            <Link to={"/signup"}>
+              {" "}
+              <Button variant="secondary">Sign up</Button>
+            </Link>
           </div>
         </div>
       </Container>
